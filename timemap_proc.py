@@ -14,9 +14,8 @@ def operatevalue(lng, lat, recitime):
     lat = float(int(lat * 100) / 100)
     for value in data:
         if value[0] == lng and value[1] == lat:
-            value[2] += 1
             return
-    data.append([lng, lat, timestamp.tm_hour*10000])
+    data.append([lng, lat, timestamp.tm_hour])
 
 
 # print(time.localtime(1487779347).tm_mday)

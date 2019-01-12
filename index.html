@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="echarts.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css"/>
+        <title>ECharts map Demo</title>
+
+    </head>
+
+    <body>
+        <script src="jquery.js"></script>
+        <script src="echarts-wordcloud.js"></script>
+
+        <div class="header">
+            <div class="header-text">
+                <a class="title" href="#">Visualization</a>
+            </div>
+
+            <div id="heatmap_title">总体热力图</div>
+            <div id="timemap_title">时间规律图</div>
+            <div id="bar_title">时段规律图</div>
+            <div id="calendar_title">日历图</div>
+            <div id="pie_title">类型图</div>
+            <div id="themeRiver_title">河流图</div>
+            <div id="wordCloud_title">词云</div>
+            <div id="conclusion_title">总结</div>
+
+        </div>
+
+
+        <div id='heatmap'></div>
+
+        <script src="beijing.js"></script>
+        <script src="heatmap_data.js"></script>
+        <script src="heatmap_data2.js"></script>
+        <script src="heatmap.js"></script>
+
+        <div id="timemap"></div>
+        <script src="beijing.js"></script>
+        <script src="timemap_data.js"></script>
+        <script src="timemap.js"></script>
+
+        <div id="bar"></div>
+        <script src="bar.js"></script>
+
+        <div id="calendar"></div>
+        <script src="calendar.js"></script>
+
+        <div id="pie"></div>
+        <script src="pie.js"></script>
+
+        <div id="themeRiver"></div>
+        <script src="themeRiver.js"></script>
+
+        <div id="wordCloud"></div>
+        <script src="wordCloud.js"></script>
+
+        <div id="conclusion"></div>
+        <!--<script src="conclusion.js"></script>-->
+
+        <script src="main.js"></script>
+
+        <script>
+            init();
+        </script>
+
+    </body>
+</html>

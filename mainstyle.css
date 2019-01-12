@@ -1,0 +1,87 @@
+
+#heatmap, #timemap, #bar, #calendar, #pie, #themeRiver, #wordCloud, #conclusion{
+    position: absolute;
+    left:0%;
+    bottom:0%;
+    width:100%;
+    height:93%;
+    display:block;
+}
+
+.header{
+    top:0%;
+    left: 0%;
+    z-index: 4;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    /* background-color:#371722; */
+    background-color: #2d3e50;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+.header-text{
+    padding-left: 20px;
+}
+
+a.title:link, a.title:visited, a.title:hover, a.title:active{
+    color: white;
+    font-weight: 400;
+    font-size: 150%;
+    font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+#heatmap_title, #timemap_title, #bar_title, #calendar_title, #pie_title, #themeRiver_title, #wordCloud_title, #conclusion_title{
+    position:absolute;
+    top: 0%;
+    left:300px;
+    width:100px;
+    height:60px;
+    font-weight: 400;
+    font-size: 120%;
+    font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 60px;
+    text-align: left;
+    color:#fb9b2a;
+    cursor:pointer;
+}
+
+#timemap_title{
+    color:white;
+    left:450px;
+}
+
+#bar_title{
+    color:white;
+    left:600px;
+}
+
+#calendar_title{
+    left:750px;
+    color:white;
+}
+
+#pie_title{
+    left:850px;
+    color:white;
+}
+
+#themeRiver_title{
+    left:950px;
+    color:white;
+}
+
+#wordCloud_title{
+    left: 1050px;
+    color:white;
+}
+
+#conclusion_title{
+    left:1130px;
+    color:white;
+}

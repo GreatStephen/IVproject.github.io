@@ -82,33 +82,36 @@ a.title:link, a.title:visited, a.title:hover, a.title:active{
     left:450px;
 }
 
+#calendar_title{
+    left:600px;
+    color:white;
+}
+
+
+#wordCloud_title{
+    left: 700px;
+    color:white;
+}
+
+
+#pie_title{
+    left:800px;
+    color:white;
+}
+
 #class_title{
     color:white;
-    left:600px;
+    left:900px;
 }
 
 #bar_title{
     color:white;
-    left:750px;
-}
-
-#calendar_title{
-    left:900px;
-    color:white;
-}
-
-#pie_title{
-    left:1000px;
-    color:white;
+    left:1050px;
 }
 
 #themeRiver_title{
-    left:1100px;
+    left:1200px;
     color:white;
 }
 
-#wordCloud_title{
-    left: 1200px;
-    color:white;
-}
 

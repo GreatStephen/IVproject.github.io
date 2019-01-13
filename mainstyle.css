@@ -1,11 +1,28 @@
 
-#heatmap, #timemap, #bar, #calendar, #pie, #themeRiver, #wordCloud, #conclusion{
+#heatmap, #timemap, #bar, #calendar, #pie, #themeRiver, #wordCloud{
     position: absolute;
     left:0%;
     bottom:0%;
     width:100%;
     height:93%;
     display:block;
+}
+
+
+#class1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+}
+
+#class2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
 }
 
 .header{
@@ -36,7 +53,16 @@ a.title:link, a.title:visited, a.title:hover, a.title:active{
     text-decoration: none;
 }
 
-#heatmap_title, #timemap_title, #bar_title, #calendar_title, #pie_title, #themeRiver_title, #wordCloud_title, #conclusion_title{
+#heatmap_background, #class{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f7e8;
+}
+
+#heatmap_title, #timemap_title, #class_title, #bar_title, #calendar_title, #pie_title, #themeRiver_title, #wordCloud_title{
     position:absolute;
     top: 0%;
     left:300px;
@@ -56,32 +82,33 @@ a.title:link, a.title:visited, a.title:hover, a.title:active{
     left:450px;
 }
 
-#bar_title{
+#class_title{
     color:white;
     left:600px;
 }
 
-#calendar_title{
+#bar_title{
+    color:white;
     left:750px;
+}
+
+#calendar_title{
+    left:900px;
     color:white;
 }
 
 #pie_title{
-    left:850px;
+    left:1000px;
     color:white;
 }
 
 #themeRiver_title{
-    left:950px;
+    left:1100px;
     color:white;
 }
 
 #wordCloud_title{
-    left: 1050px;
+    left: 1200px;
     color:white;
 }
 
-#conclusion_title{
-    left:1130px;
-    color:white;
-}

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <script src="echarts.min.js"></script>
         <link rel="stylesheet" type="text/css" href="mainstyle.css"/>
-        <title>ECharts map Demo</title>
+        <title>李天幼 刘琦</title>
 
     </head>
 
@@ -19,27 +19,38 @@
 
             <div id="heatmap_title">总体热力图</div>
             <div id="timemap_title">时间规律图</div>
+            <div id="class_title">类型规律图</div>
             <div id="bar_title">时段规律图</div>
             <div id="calendar_title">日历图</div>
             <div id="pie_title">类型图</div>
             <div id="themeRiver_title">河流图</div>
             <div id="wordCloud_title">词云</div>
-            <div id="conclusion_title">总结</div>
 
         </div>
 
+        <div id="heatmap_background">
+            <div id='heatmap'></div>
 
-        <div id='heatmap'></div>
-
-        <script src="beijing.js"></script>
-        <script src="heatmap_data.js"></script>
-        <script src="heatmap_data2.js"></script>
-        <script src="heatmap.js"></script>
-
+            <script src="beijing.js"></script>
+            <script src="heatmap_data.js"></script>
+            <script src="heatmap_data2.js"></script>
+            <script src="heatmap.js"></script>
+        </div>
+        
         <div id="timemap"></div>
         <script src="beijing.js"></script>
         <script src="timemap_data.js"></script>
         <script src="timemap.js"></script>
+
+        <div id="class">
+            <div id="class1"></div>
+            <script src="class1_data.js"></script>
+            <script src="class1.js"></script>
+
+            <div id="class2"></div>
+            <script src="class2_data.js"></script>
+            <script src="class2.js"></script>
+        </div>
 
         <div id="bar"></div>
         <script src="bar.js"></script>
@@ -56,9 +67,7 @@
         <div id="wordCloud"></div>
         <script src="wordCloud.js"></script>
 
-        <div id="conclusion"></div>
-        <!--<script src="conclusion.js"></script>-->
-
+        
         <script src="main.js"></script>
 
         <script>

@@ -14,8 +14,9 @@ def operatevalue(lng, lat, recitime):
     lat = float(int(lat * 100) / 100)
     for value in data:
         if value[0] == lng and value[1] == lat:
+            value[2]+=1
             return
-    data.append([lng, lat, timestamp.tm_hour])
+    data.append([lng, lat, 1])
 
 
 # print(time.localtime(1487779347).tm_mday)
@@ -29,6 +30,7 @@ with open('classify.json', 'r', encoding='UTF-8') as f:
         lat = item['lat']
         lng = float(lng)
         lat = float(lat)
+        if(item['classify']!='地产广告'): continue
         operatevalue(lng, lat, int(item['recitime']))
 
         if index%100000==0: print("mark")
